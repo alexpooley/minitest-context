@@ -12,5 +12,6 @@ module MiniTest
 
       const_set(class_name, Class.new(clean_class, &block))
     end
+    alias :context :describe
   end
 end
